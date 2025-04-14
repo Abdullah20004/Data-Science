@@ -19,7 +19,7 @@ Welcome to the Customer Segmentation Dashboard! This app segments customers from
 """)
 
 # Load and preprocess data
-@st.cache(allow_output_mutation=True)
+@st.cache_data  # For data loading (safer, immutable)
 def load_data():
     df = pd.read_excel('Online Retail (1).xlsx')
     df = df.dropna(subset=['CustomerID'])
