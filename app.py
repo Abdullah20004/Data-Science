@@ -12,7 +12,7 @@ import pickle
 # Set page config
 st.set_page_config(page_title="Customer Segmentation Dashboard", layout="wide")
 
-# Title and introduction
+
 st.title("Online Retail Customer Segmentation")
 st.markdown("""
 Welcome to the Customer Segmentation Dashboard! This app segments customers from the Online Retail dataset using KMeans clustering, answering key questions about purchasing behavior. Explore clusters, visualize insights, and predict segments for new customers.
