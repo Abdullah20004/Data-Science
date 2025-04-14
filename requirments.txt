@@ -1,0 +1,8 @@
+streamlit==1.44.1
+scikit-learn==1.4.2
+pandas==2.2.3
+numpy==2.2.4
+matplotlib==3.8.4
+seaborn==0.13.2
+openpyxl==3.1.2  # Required for pd.read_excel()
+pickle-mixin==1.0.0  # For model serialization
