@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
-
+from tabulate import tabulate
 
 # Set page config
 st.set_page_config(page_title="Customer Segmentation Dashboard", layout="wide")
